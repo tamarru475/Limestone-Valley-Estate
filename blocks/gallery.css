@@ -1,0 +1,24 @@
+.gallery {
+  max-width: 100%;
+  margin-top: 150px;
+}
+
+.gallery__heading {
+  margin: 0;
+  text-align: center;
+  font-family: "Arima", cursive, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 57px;
+  line-height: 72px;
+}
+
+.gallery__discprition {
+  margin: 0;
+  text-align: center;
+  font-family: "Arima", cursive, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 45px;
+}

@@ -1,0 +1,65 @@
+.shop {
+  max-width: 100%;
+  margin-top: 120px;
+}
+
+.shop__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop__heading {
+  margin: 0;
+  text-align: center;
+  font-family: "Arima", cursive, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 57px;
+  line-height: 72px;
+}
+
+.shop__discprition {
+  margin: 0;
+  font-family: "Arima", cursive, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 45px;
+}
+
+.shop__button {
+  background-color: rgb(118, 5, 114);
+  color: lavenderblush;
+  margin: 0;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 26px;
+  padding-right: 26px;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 20%;
+  font-family: "Amatic SC", cursive, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 35px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.shop__button:hover {
+  color: white;
+  background-color: indigo;
+}
+
+.shop__footer {
+  margin: 0;
+  text-align: start;
+  font-family: "Arima", cursive, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 45px;
+}

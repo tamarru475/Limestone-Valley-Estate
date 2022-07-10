@@ -1,0 +1,21 @@
+.page {
+  position: relative;
+  margin: 0 auto;
+  font-family: "Arima" cursive, Arial, sans-serif;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  color: #000000;
+  background-color: lavender;
+  background-image: linear-gradient(lavender, indigo);
+  -webkit-background-size: 100vw;
+  -moz-background-size: 100vw;
+  -o-background-size: 100vw;
+  background-size: 100vw;
+}
+html {
+  scroll-behavior: smooth;
+}
