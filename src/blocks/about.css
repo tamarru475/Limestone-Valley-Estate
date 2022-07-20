@@ -7,7 +7,7 @@
 
 .about:before {
   content: "";
-  background: url("../images/lavender-field.jpeg") no-repeat center/cover;
+  background: url("../images/sunset-main.jpg") no-repeat center/cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -42,9 +42,23 @@
   font-family: "Amatic SC", cursive;
 }
 
-.about__discprition {
+.about__subheading {
   margin: 0;
   font-family: "Arima", cursive, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.about__discription {
+  max-width: 820px;
+  text-align: center;
+  padding-left: 50px;
+  padding-top: 40px;
+  font-family: "Amatic SC", cursive;
+  margin: 0;
+  color: rgb(43, 9, 52);
   font-style: normal;
   font-weight: 400;
   font-size: 25px;

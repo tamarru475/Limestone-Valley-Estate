@@ -27,14 +27,24 @@
   font-weight: 400;
   font-size: 22px;
   line-height: 45px;
+  padding-top: 12px;
+  padding-bottom: 30px;
+}
+
+.stay__image {
+  max-width: 800px;
+  width: 100%;
+  border-radius: 20%;
+  box-sizing: border-box;
+  border: 10px double rgb(226, 211, 236);
 }
 
 .stay__buttons-container {
-  margin-top: 25px;
+  padding-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 60px;
 }
 
 .stay__button {
@@ -56,6 +66,11 @@
   cursor: pointer;
   text-decoration: none;
   transition: background-color 0.3s ease-in-out;
+}
+
+.stay__button-airbnb {
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .stay__button:hover {
