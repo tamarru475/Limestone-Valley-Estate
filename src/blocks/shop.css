@@ -20,6 +20,24 @@
   line-height: 72px;
 }
 
+.shop__grid-container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.shop__grid {
+  box-sizing: border-box;
+  border-top-left-radius: 8%;
+  min-height: calc(100vh - 700px);
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  grid-gap: 5px;
+}
+
 .shop__discprition {
   margin: 0;
   font-family: "Arima", cursive, sans-serif;
