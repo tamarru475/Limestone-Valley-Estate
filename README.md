@@ -18,13 +18,13 @@ A business landing paged presenting a lavender farm in New Zealand who offers la
 
 - Responsive Layout
 - Animtaion
-- Form Validation
-- JS classes
+- React
+- Webpack
 
 # Hoping to add:
 
-- React
-- Webpack
+- Form Validation
+- React hooks
 - Server
 
 # GitHub Pages:
