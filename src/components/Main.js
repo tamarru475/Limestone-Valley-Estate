@@ -8,7 +8,8 @@ export default function Main(props) {
     <main className="main">
       <About />
       <Stay />
-      <Shop />
+      <Shop onItemClick={props.onItemClick} />
+      {props.children}
       <section className="gallery" id="gallery">
         <h4 className="gallery__heading">Our Farm:</h4>
         <p className="gallery__discprition">Come say hello!</p>

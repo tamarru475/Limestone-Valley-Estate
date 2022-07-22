@@ -20,7 +20,10 @@ export default function Footer() {
           </a>
         </li>
         <li>
-          <a href="#" className="footer__link footer__link-instegram">
+          <a
+            href="https://www.facebook.com/LimestoneValleyLavender/"
+            className="footer__link footer__link-instegram"
+          >
             <img
               src={instagramLogo}
               alt="instegram"

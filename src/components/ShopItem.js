@@ -10,6 +10,7 @@ export default function ShopItem(props) {
         className="shop__item-image"
         src={props.item.image}
         alt={props.item.name}
+        onClick={handleImageClick}
       />
     </figure>
   );

@@ -14,7 +14,7 @@ import soyCandle from "../images/soy-candel.jpg";
 import wheetSack from "../images/wheet-sack.jpg";
 import ShopItem from "./ShopItem";
 
-export default function Shop() {
+export default function Shop(props) {
   const shopItems = [
     { name: "Olive Oil Soap Bar", image: brownSoap, id: "1" },
     { name: "Lavender Face Wash", image: faceSoap, id: "2" },
@@ -38,12 +38,19 @@ export default function Shop() {
         <div className="shop__grid-container">
           <div className="shop__grid">
             {shopItems.map((item) => (
-              <ShopItem key={item.id} item={item} />
+              <ShopItem
+                key={item.id}
+                item={item}
+                onItemClick={props.onItemClick}
+              />
             ))}
           </div>
         </div>
         <p className="shop__discprition">We are available at:</p>
-        <a href="#" className="shop__button">
+        <a
+          href="https://limestone-valley-estate.myshopify.com/"
+          className="shop__button"
+        >
           Shopify
         </a>
         <p className="shop__footer">Or visit our lovley little shop!</p>
